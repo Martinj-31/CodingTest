@@ -35,3 +35,4 @@ for _ in range(T):
                 cnt += 1
             else: pass
     print(cnt)
+    
