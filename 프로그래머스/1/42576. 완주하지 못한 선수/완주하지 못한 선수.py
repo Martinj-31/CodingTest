@@ -1,8 +1,16 @@
 def solution(participant, completion):
-    participant.sort()
-    completion.sort()
-    for i in range(len(completion)):
-        if participant[i] != completion[i]:
-            return participant[i]
-        
-    return participant[len(participant)-1]
+    answer = ''
+    part_dict = {}
+    for name in participant:
+        part_dict[name] = []
+    
+    for name in participant:
+        part_dict[name].append(0)
+
+    for name in completion:
+        part_dict[name].remove(0)
+    
+    for name, comp in part_dict.items():
+        if len(comp) > 0:
+            answer = name
+    return answer
