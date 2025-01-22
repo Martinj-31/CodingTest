@@ -1,0 +1,18 @@
+import sys
+
+print(f"           *********           ")
+print(f"      *****         ****      ")
+print(f"    **                  **    ")
+print(f"   *                      *   ")
+print(f" **                        ** ")
+print(f"*                            *")
+print(f"*                            *")
+print(f"**                          **")
+print(f" **  *    ****  ****    *  **  ")
+print(f"   ** ***** ****** ***** **    ")
+print(f"             ****              ")
+print(f"             ****              ")
+print(f"             ****              ")
+print(f"             ****              ")
+print(f"            ******             ")
+print(f"           ********")
